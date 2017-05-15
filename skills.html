@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Isabela Bastos - Web Developer</title>
+    <link href="styles/main2.css" rel="stylesheet" type="text/css" media="screen">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro|Space+Mono" rel="stylesheet">
+    <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+</head>
+<body onload="startUp();">
+
+    <header>
+        <img src="images/canoa-fade.png" rel="Home"/>
+    </header>
+
+    <nav class="scale">
+        <ul>
+            <li><a href="about.html"> About me </a> </li>
+            <li><a href="education.html"> Education </a> </li>
+            <li><a href="experiences.html"> Experience </a> </li>
+            <li><a href="skills.html"> Skills </a> </li>
+            <li><a href="languages.html"> Languages </a> </li>
+            <li><a href="pages.html"> Other Pages </a> </li>
+            <li><a href="#" onclick="showForm();"> Contact </a> </li>
+        </ul>
+    </nav>
+
+    <div id="wrap">
+        <main>
+            <h2> Skills:</h2>
+            <section>
+                <h3>Behavioral Skills:</h3>
+                <ul>
+                    <li><strong>Good communication</strong> in 3 languages skills developed through 7 years of experience in corporate world, in which I was responsible for general communication to all
+                        employees, customer negotiations and partaking in meetings designed to enhance collaboration, identify and develop strategies both internally as well as with clients.</li>
+                    <li><strong>Teamwork and leadership skills</strong> gained by setting goals, mediating conflicts and providing feedback.</li>
+                    <li>Demonstrated to be a <strong>fast learner</strong>strong> adapting fast to headhunting specific technical profiles</li>
+                    <li>Shown to be <strong>diligent learner</strong> attending to extra classes in college in order to develop more techincal skills.</li>
+                </ul>
+            </section>
+            <section>
+                <h3>Techinical Skills:</h3>
+                <ul>
+                    <li>Java</li>
+                    <li>HTML 5, CSS, Javascript</li>
+                    <li>Eclipse and Visual Studio (IDE)</li>
+                    <li>Configuring Windows Client (Basics)</li>
+                    <li>VM Ware</li>
+                </ul>
+            </section>
+
+    </main>
+
+
+    <footer>
+    </footer>
+
+
+        <div id="blackOut">
+
+
+
+            <div id="contactForm" style="display: none;">
+                <form>
+                    <p style="color:whitesmoke;">Name:<input type="text" class="smallText" maxlength="200px" size="60"> </p>
+                    <p style="color:whitesmoke;">E-mail: <input type="text" maxlength="200px" class="smallText" size="60"></p>
+                    <p style="color:whitesmoke;">Message:</p> <p> <textarea rows="6" cols="70"> </textarea></p>
+                    <input type="button" id="send" value="Send" >  <input type="button" id="cancel" value="Cancel" onclick="closeBox();">
+
+
+                </form>
+            </div>
+        </div>
+
+</body>
+</html>

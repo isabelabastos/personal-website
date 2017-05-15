@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Isabela Bastos - Web Developer</title>
+    <link href="styles/main2.css" rel="stylesheet" type="text/css" media="screen">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro|Space+Mono" rel="stylesheet">
+    <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+</head>
+<body onload="startUp();">
+
+<header>
+    <img src="images/canoa-fade.png" rel="Home"/>
+</header>
+
+    <nav class="scale">
+        <ul>
+            <li><a href="about.html"> About me </a> </li>
+            <li><a href="education.html"> Education </a> </li>
+            <li><a href="experiences.html"> Experience </a> </li>
+            <li><a href="skills.html"> Skills </a> </li>
+            <li><a href="languages.html"> Languages </a> </li>
+            <li><a href="pages.html"> Other Pages </a> </li>
+            <li><a href="#" onclick="showForm();"> Contact </a> </li>
+        </ul>
+    </nav>
+
+    <div id="wrap">
+        <main>
+            <h2>Experiences</h2>
+    
+            <section>
+                <h3>Peer Mentor/ Peer Tutor  - Fanshawe College (London, ON)</h3>
+                <p class="time">January 2017 to present</p>
+                <p>meeting to assist students who need help with the content of first term courses.</p>
+            </section>
+    
+            <section>
+                <h3>Language Tutor - Exitus Escolar (Fortaleza – Brazil)</h3>
+                <p class="time">Nov 2015 to Aug 2016</p>
+                <p>Taught English classes to middle schoolers on a self-employed basis</p>
+            </section>
+            
+            <section>
+                <h3>Language Tutor - Instituto Maryland (Santiago – Chile)</h3>
+                <p class="time">April 2015 to October 2015</p>
+                <p>Visited companies with sales team, evaluated clients’ needs to provide necessary information for service proposal elaboration. Established goals and reported advances monthly in order to promote a good relationship with clients.</p>
+            </section>
+    
+            <section>
+                <h3>HR Analyst and Headhunter - iFactory Solutions (Fortaleza – Brazil)</h3>
+                <p clas="time">July 2013 to February 2015</p>
+                <p>Measured HR indicators and presented them on meetings with CEO, in order to persuade promotion of programs such as implementation certification bonuses for specific period. Mediated team conflicts. Provided or assisted delicate feedback, when necessary. Followed team productivity together with project managers and team leaders. Collected data about team skills to evaluate, choose and organize technical trainings.</p>
+            </section>
+    
+            <section>
+                <h3>Selection Consultant - MRH (Fortaleza – Brazil)</h3>
+                <p class="time">July 2012 to June 2013</p>
+                <p>Assisted and negotiated directly with clients. Writing reports to clients in English or Portuguese.</p>
+            </section>
+    
+            <section>
+                <h3>HR Intern - Casa Magalhães (Fortaleza – Brazil)</h3>
+                <p class="time">June 2010 to April 2011</p>
+            </section>
+    
+            <section>
+                <h3>HR Intern - Marina Park Hotel (Fortaleza – Brazil)</h3>
+                <p class="time">January 2009 to February 2011</p>
+            </section>
+        </main>
+    </div>
+
+
+    <footer>
+    </footer>
+
+    <div id="blackOut">
+
+
+
+    <div id="contactForm" style="display: none;">
+        <form>
+            <p style="color:whitesmoke;">Name:<input type="text" class="smallText" maxlength="200px" size="60"> </p>
+            <p style="color:whitesmoke;">E-mail: <input type="text" maxlength="200px" class="smallText" size="60"></p>
+            <p style="color:whitesmoke;">Message:</p> <p> <textarea rows="6" cols="70"> </textarea></p>
+            <input type="button" id="send" value="Send" >  <input type="button" id="cancel" value="Cancel" onclick="closeBox();">
+
+
+        </form>
+    </div>
+</div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Isabela Bastos - Web Developer</title>
+    <link href="styles/main2.css" rel="stylesheet" type="text/css" media="screen">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro|Space+Mono" rel="stylesheet">
+    <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+</head>
+<body onload="startUp();">
+
+    <header>
+        <img src="images/canoa-fade.png" rel="Home"/>
+    </header>
+
+
+    <nav>
+        <ul>
+            <li><a href="about.html"> About me </a> </li>
+            <li><a href="education.html"> Education </a> </li>
+            <li><a href="experiences.html"> Experience </a> </li>
+            <li><a href="skills.html"> Skills </a> </li>
+            <li><a href="languages.html"> Languages </a> </li>
+            <li><a href="pages.html"> Other Pages </a> </li>
+            <li><a href="#" onclick="showForm();"> Contact </a> </li>
+        </ul>
+    </nav>
+
+    <div id="wrap">
+    <main>
+        
+        
+        <h2>Welcome to Isabela's Digital Resume</h2>
+        
+        <h3>About Isabela:</h3>
+        <p><strong>Full name:</strong>Isabela Bastos.<img id="profile" src="images/isabelaSmall.jpg" alt="Isabela Bastos"/></p>
+        <p><strong>Nationality: </strong>Brazilian.</p>
+        <p><strong>Studying: </strong>Webdevelopment at Fanshawe College.</p>
+        <p><strong>Work Permit: </strong>part-time, full-time(for summer only).</p>
+        <p><strong>Countries I lived in:</strong> Brazil, Chile and Canada.</p>
+        <p><strong>Hobbies:</strong> computer programming, language learning, music and series, traveling, meeting other cultures.</p>
+        <p><strong>First contact with computer programming:</strong> It all started when I graduated psychology and started working as human resources analyst in an IT company, I got curious about the subject and started self-study(python) until I decided for the career switch.</p>
+
+
+
+
+    </main>
+    <footer>
+    </footer>
+
+    </div>
+
+    <div id="blackOut">
+
+
+
+        <div id="contactForm" style="display: none;">
+            <form>
+                <p style="color:whitesmoke;">Name:<input type="text" class="smallText" maxlength="200px" size="60"> </p>
+                <p style="color:whitesmoke;">E-mail: <input type="text" maxlength="200px" class="smallText" size="60"></p>
+                <p style="color:whitesmoke;">Message:</p> <p> <textarea rows="6" cols="70"> </textarea></p>
+                <input type="button" id="send" value="Send" >  <input type="button" id="cancel" value="Cancel" onclick="closeBox();">
+
+
+            </form>
+        </div>
+    </div>
+
+</body>
+</html>
